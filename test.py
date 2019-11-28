@@ -1,5 +1,7 @@
 import random
-ran = random.randint(1, 100)
+a = int(input('請輸入猜數字範圍(小)'))
+b = int(input('請輸入猜數字範圍(大)'))
+ran = random.randint(a, b)
 count = 0
 while True:
 	insert_ran = int(input('請輸入要猜的數字: '))
